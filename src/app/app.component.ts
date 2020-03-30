@@ -18,7 +18,9 @@ export class AppComponent {
 
   constructor() {
     this.data$ = interval(500).pipe(
-      // Put your code here. Feel free to change the lines below too.
+      // Put your code here. Feel free to change the lines below too. Any rxjs operator can be used.
+      // Try to avoid nested .pipes / .subscribes.
+      // The goal is to provide a readable solution in acceptable time that demonstrates your knowledge of rxjs.
 
       map(counter => counter + 1),
       startWith(0),

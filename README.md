@@ -1,9 +1,10 @@
 # Requirements
 * You can change the code only inside of the `.pipe` in the `AppComponent`.
+* Please do not fork the repo to avoid disclosure of your solution.
 
 # Goal
 
-* By default the counter doesn't count and its value is 0
+* By default the counter doesn't count and its value is 0.
 * The counting begins when we click the start button, 1 2 3 etc.
 * The counting stops when we click the stop button, (for example on 20).
 * The counting continues when we click the start button again, 21 22 23 etc.
